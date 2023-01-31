@@ -1,0 +1,8 @@
+node_modules/
+npm-debug.log
+package-lock.json
+test/*.log
+env/prod.env
+env/test.env
+env/prod.js
+env/test.js

@@ -1,0 +1,36 @@
+{
+  "name": "tobi-qa-slack-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This is repository of Tobi Slack Bot",
+  "main": "index.js",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "run": "node public/index.js",
+    "run:dev": "nodemon src/index.js",
+    "build": "webpack",    
+    "format": "prettier --write ."
+  },
+  "author": "Marcin Kapturski <mkapturski@gmail.com>",
+  "license": "NDA",
+  "dependencies": {
+    "@octokit/core": "^3.5.1",
+    "@slack/bolt": "^3.8.1",
+    "axios": ">=0.21.1",
+    "bolt": "^0.24.10",
+    "dotenv-cli": "^4.1.1",
+    "html-webpack-plugin": "^5.5.0",
+    "log-to-file": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "webpack": "^5.68.0",
+    "webpack-dev-server": "^4.7.4",
+    "webpack-node-externals": "^3.0.0",
+    "winston": "^3.4.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  }
+}
