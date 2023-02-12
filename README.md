@@ -1,6 +1,6 @@
 # Overview
 
-Tobi will help with running automation tests on GitHub Actions directly from Slack
+Tobi QA Bot will run automation tests dirlectly from Slack   
 It can be invited and called on any Slack channel (privet & public)
 
 ## Tobi Demo
